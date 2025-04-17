@@ -2,7 +2,7 @@ public class targetarr {
     public static void main (String args[] ){
 
         int target = 5;
-        int arr[]={1,2,3,4,5};
+        int arr[]={1,2,3,4,2,4,1};
         
         for(int i=0;i<arr.length;i++){
             for(int j=i;j<arr.length;j++){
