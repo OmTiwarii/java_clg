@@ -11,6 +11,8 @@ public class strpalindrom {
         System.out.println(palindrom);
         System.out.println(reverse.length());
         System.out.println(palindrom.length());
+        // comparing address if(reverse==palindrom) ;
+        //comparing the values
         if(reverse.equals(palindrom)){
             System.out.println("its a palindrom");
         }else {
