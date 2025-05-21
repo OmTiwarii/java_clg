@@ -1,6 +1,6 @@
 public class mostreaptingstr {
     public static void main(String[] args) {
-        String str = "hellolooooo";
+        String str = "hhhhllllnnn";
         int maxcount=0;
         char maxvalue='0';
         char arr[]= str.toCharArray();
@@ -14,9 +14,10 @@ public class mostreaptingstr {
             }
             if(count >maxcount){
                 maxcount=count;
-            }else{
-                maxvalue =c;
+            maxvalue= c;
+               
             }
+           
         
         }
         System.out.println(maxcount);
