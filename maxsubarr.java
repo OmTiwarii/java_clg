@@ -11,8 +11,6 @@ public class maxsubarr {
                index1=i;
             }
         }
-       
-      
         
         int  max2 =0;
         int index2 =0;
@@ -42,7 +40,7 @@ public class maxsubarr {
        System.out.println(max1+" "+max2 +" "+max3);
        System.out.println(index1+" "+index2 +" "+index3);}
        catch(Exception e){
-        System.out.println("invaild loop");
+        System.out.println(e +"invaild loop");
        }
 }
 }
