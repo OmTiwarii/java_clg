@@ -20,5 +20,6 @@ public class maxsubarrK {
 
 }
 System.out.println(maxum);
+
 }
 }
