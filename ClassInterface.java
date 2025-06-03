@@ -23,7 +23,7 @@ class Student implements Comparable <Student>{
 }
 public class ClassInterface {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {2
         ArrayList<Student> list =new ArrayList<>();
         list.add(new Student(11, "om"));
         list.add(new Student(22, "jake"));
